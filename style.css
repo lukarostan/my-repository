@@ -1,0 +1,31 @@
+h1{
+    font-size: 50px;
+    vertical-align: top;
+    margin-left:500px;
+    margin-bottom: none;
+    font-family: 'Baloo Paaji 2', cursive;
+    margin-bottom: none;
+    margin-top:none;
+}
+#mainWindow{
+    width:inherit;
+    height:500px;
+    margin-top:none;
+    background-color: aquamarine;
+    border-top:none;
+    margin-top:none;
+}
+#reactButton{
+    width:200px;
+    height:80px;
+    position:relative;
+    font-size:24px;
+    margin-left: 700px;
+    margin-top: 200px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+#timer{
+   
+    font-size:48px;
+    font-family: 'Oswald', sans-serif;
+}
