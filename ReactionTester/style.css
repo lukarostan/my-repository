@@ -1,31 +1,73 @@
+body{
+    margin:0;
+    
+}
+.center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#textReady{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size:36px;
+}
+
 h1{
     font-size: 50px;
     vertical-align: top;
-    margin-left:500px;
+    text-align: center;
+    margin:0;
+    
     margin-bottom: none;
-    font-family: 'Baloo Paaji 2', cursive;
-    margin-bottom: none;
+    background-color:#4fb3bf;
     margin-top:none;
+     
 }
+
+.balooFont{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
 #mainWindow{
     width:inherit;
     height:500px;
-    margin-top:none;
-    background-color: aquamarine;
+    margin-top:0;
     border-top:none;
     margin-top:none;
 }
 #reactButton{
     width:200px;
+    align-self: center;
     height:80px;
-    position:relative;
+    position:absolute;
+    margin: 0;
+    top: 50%;
+    border:0;
+    background-color:#00838f;
     font-size:24px;
-    margin-left: 700px;
-    margin-top: 200px;
-    font-family: 'Baloo Paaji 2', cursive;
 }
+
 #timer{
-   
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
     font-size:48px;
     font-family: 'Oswald', sans-serif;
+}
+#about{
+    width:inherit;
+    height:200px;
+    background-color: #005662;
+    
 }
