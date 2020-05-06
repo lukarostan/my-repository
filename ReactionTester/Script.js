@@ -6,7 +6,9 @@ $(function() {
             function() 
             { 
             //do something special
-            $("#mainWindow").css("background-color", "00838f");
+                
+                setInterval(clockRunning, 100);
+            $("#mainWindow").css("background-color", "4fb3bf");
             $("#reactButton").html("CLICK ME!");
             }, timer );
         }
@@ -20,12 +22,12 @@ var ms = 0;
 var second = 0;
 
     
-setInterval(clockRunning, 1);
+
 
 function clockRunning(){
 	
 	ms++;
-	if (ms == 1000){
+	if (ms == 100){
 		second += 1;
 		ms = 0;}
     
