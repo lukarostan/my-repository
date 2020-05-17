@@ -1,0 +1,69 @@
+#title{
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    margin:3px;
+    
+}
+body{
+    padding:0;
+    margin:0;
+    background-color: #82b3c9;
+}
+
+.text{
+    font-size:24px;
+    vertical-align: top;
+    text-align: center;
+    margin:0;
+    margin-bottom: 5px;
+    
+}
+#page-container{
+    position:fixed;
+    align-self: center;
+    width:100%;
+    height:87%;
+    background-color:#b3e5fc;
+    z-index: -3;
+    border: 1px solid black;
+}
+
+#game-container{
+    position:relative;
+    left:10%;
+    top:5%;
+    background-color:#e6ffff;
+    border: 1px solid black;
+    width:80%;
+    height:85%;    
+}
+
+#timeText{
+    font-size:28px;
+    padding:0;
+    margin:0;
+    z-index:4;
+    position: relative;
+    text-align: center;
+    top:15%;
+    opacity: 20%;
+}
+
+#shape{
+    width:100px;
+    height: 100px;
+    background-color:orangered;
+    border:1px solid black;
+    
+}
+
+
+.font{
+    font-family: 'Baloo 2', cursive;
+}
+#footer{
+    position:absolute;
+    top: 95%;
+    padding-left:5px;
+}
