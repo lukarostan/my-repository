@@ -1,6 +1,10 @@
-# Webpack workshop
 
-Factory app based on webpack 4.
+Recreating design from figma about coding company.
+Might revise project with Vue.js!!
+
+
+
+app based on webpack 4.
 
 ```bash
 # Install dependencies
