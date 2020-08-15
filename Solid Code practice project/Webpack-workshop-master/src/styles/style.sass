@@ -1,0 +1,229 @@
+@font-face 
+    font-family: "Muli"
+    src:url("Muli.ttf")
+
+
+    
+* 
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    list-style-type: none
+    font-family: "Muli"
+    
+
+
+body
+   font-family: Muli, Helvetica, sans-serif
+   
+@media screen and (max-width: 600px) 
+    .page-container
+        width: 100%
+        height: fit-content
+        .header
+            display: flex
+            flex-direction: row
+            height: 10%
+            -webkit-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.5)
+            -moz-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.5)
+            box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.5)
+            img
+                padding: 8px 0px
+                width: 50vw
+            .menu
+                margin-top: 2px
+                width: 32px
+                height: 30px
+                position: absolute
+                right: 20px
+                div
+                    background-color: #11c176
+                    width: 32px
+                    height: 3px
+                    border-radius: 2px
+                    margin-top: 8px
+                
+        .content-container
+            display: flex
+            flex-direction: column
+            align-items: center
+            .headline1
+                padding: 35px 20px 15px 20px
+            .paragraph1
+                padding: 15px 20px
+            
+            .slide1
+                width: 100%
+                
+                background-color: #1B2753
+                color: white
+                height: 90%
+                img
+                    filter: grayscale(100%)
+                    width: 100%
+                   
+                .slide1header
+                    margin-left: 20px
+                    font-size: 14px
+                h2
+                    margin: 10px 20px
+                    font-size: 30px
+                
+                .slide1-container
+                    margin: 15px 20px
+                    display: grid
+                    grid-template-columns: 1fr 1fr
+
+                    justify-content: center
+                    width: 90%
+                    .panel:hover
+                        background-color: #fff
+                    .panel
+                        display: flex
+                        flex-direction: column
+                        height: 240px
+                        margin-top: 15px
+                        background-color: #24305a
+                        transition: background-color 0.3s
+                    
+                        
+                        img
+                            width: 70px
+                            margin: 20px 15px
+                        
+                        h3
+                            text-align: left
+                            margin: 15px 15px
+                        a
+                            
+                            margin: 15px 15px
+                            color: #858a9e
+            .slide2
+                background-color: #11C176
+                width: 100%
+                height: 85vh
+                h2
+                    color: white
+                    font-size: 30px
+                    margin: 0px 0px 20px 20px
+                p
+                    color: white
+                    font-size: 15px
+                .slide2text
+                    margin: 30px 15px
+                
+                span:nth-of-type(1)
+                    
+                    margin-left: 20px
+                    font-size: 14px
+                    color: #08613b
+                    
+                    
+                .slide2-container
+                    display: grid
+                    grid-template-columns: 1fr 1fr
+                    
+                    .slide2-panel
+                        height: 226px
+                        p
+                            font-size: 14px
+                            padding: 20px 12px
+                            
+                            
+                        span
+                            color: #11C176
+                            border-radius: 2px
+                            font-size: 36px
+                            margin-left: 12px
+                            border-bottom: solid #fff 3px
+                            padding: 5px 30px 6px 0px
+
+                    .slide2-panel:nth-of-type(1)
+                        background-color: #1B2753
+                    .slide2-panel:nth-of-type(2)
+                        background-color: #fff
+                    .slide2-panel:nth-of-type(3)
+                        background-color: #fff
+                    .slide2-panel:nth-of-type(4)
+                        background-color: #1B2753
+            .slide3
+                background-color: #1B2753
+                height: 60vh
+                img
+                    width: 100%
+                        
+
+                    
+
+    .navigation-container
+        display: none
+        width: 100vw
+        height: 100vh 
+        background-color: #1B2753
+        .navigation-header
+            display: flex
+            flex-direction: row
+            .close
+                margin-top: 15px
+                position: absolute
+                right: 20px
+                width: 30px
+                height: 30px
+                
+                div
+                    border-radius: 2px
+                    background-color: white
+                    width: 30px
+                    height: 2px
+                    
+                div:nth-of-type(1)
+                    
+                    transform: rotate(135deg)
+                div:nth-of-type(2)
+                    transform: rotate(225deg)
+            #logo
+                width: 65vw
+
+        .navigation-items
+            font-size: 30px
+            font-weight: bold
+            color: white
+            line-height: 30px
+            align-items: center
+            justify-content: center
+            display: flex
+            flex-direction: column
+            > *
+                margin: 20px 0px
+            .navigation-comp__contact
+                text-align: center
+                li
+                    
+                img
+                    padding: 0px 10px
+                    height: 1
+                a
+                    
+                    color: white
+                    text-decoration: none
+                    font-size: 16px
+
+                li:nth-of-type(1)
+                    font-weight: normal
+
+            .navigation-comp__data
+                font-size: 13px
+                text-align: center
+                margin: 0px
+                font-weight: normal 
+
+.consultation
+    background-color: #11C176
+    border: none
+    color: white
+    border-radius: 4px
+    height: 56px
+    width: 90vw
+    font-size: 16px
+    align-self: center
+    margin: 25px
